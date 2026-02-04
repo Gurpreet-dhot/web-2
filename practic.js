@@ -41,17 +41,36 @@
 //     name.value=""
 // })
 
-function print(num){
+// function print(num){
+//     setTimeout(()=>{
+//         console.log("inside print")
+//         setTimeout(()=>num(),1000)
+//     },3000)
+// }
+
+// function sample(){
+//     console.log("inside call")
+// }
+
+// print(sample)
+
+
+
+console.log("starting homework");
+
+setTimeout(() => {
+    console.log("homework done");
+    console.log("starting dinner");
+
     setTimeout(()=>{
-        console.log("inside print")
-        setTimeout(()=>num(),1000)
-    },3000)
-}
+        console.log("dinner done");
+        console.log("getting ready to go out");
 
-function sample(){
-    console.log("inside call")
-}
+        setTimeout(()=>{
+            console.log("going to playground");
+        },1000);
 
-print(sample)
-
-
+    },1500);
+    
+},2000);
+    
