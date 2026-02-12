@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assign.css">
+</head>
+<body>
+    <div class="container">
+        <div class="eventform">
+    <h1> Create event</h1>
+    <form id="form">
+        <label for="eventtitle">eventTitle:</label>
+        <input type="text" id="eventtitle" name="eventtitle">
+        <br>
+        <label for="eventdate">eventDate:</label>
+        <input type="date" id="eventdate" name="eventdate">
+        <br>
+        <label for="category">Category:</label>
+        <select id="category" >
+            <option value="work">Workshop</option>
+            <option value="meetup">meetup</option>
+            <option value="social">social</option>
+        </select>
+        <br><br>
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" rows="4" cols="50"></textarea>
+        <br><br>
+        <button type="submit">add event</button>
+        
+    </form>
+    </div>
+
+
+    <div class="events">
+        <h1> Events List </h1>
+        <button> clear events</button>
+        <button> add sample events</button>
+        <div class="card"></div>
+    </div>
+
+   
+    </div>
+
+    
+    <div class="dom">
+        
+    </div>
+
+    
+
+    <script src="assign.js"></script>
+</body>
+</html>
