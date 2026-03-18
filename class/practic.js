@@ -151,4 +151,66 @@
 // foodorder()
 
 
+// console.log("first line")
+// try{
+//     // let sample = 345
+//     // console.log(sample)
+//     // console.log("line after sample")
+//     let age = 16
+//     if (age<18){
+//         throw new Error("age is less than 18")
+//     }
+// }catch(e){
+//     console.log(e)
+//     console.log("hello hello hello")
+// }
+// console.log("last line")
 
+
+
+
+// function* generator(){
+//     for (let index = 1; index<=4; index++) {
+//         yield index
+//     }
+// }
+// const gen=generator()
+// console.log(gen.next()
+// console.log(gen.next())
+// console.log(gen.next())
+// console.log(gen.next())
+
+// function add(a){
+//     return function(b){
+//         return function(c){
+//             return a+b+c
+//         }
+//     }   
+// }
+// const first=add(1)
+// console.log(first)
+// const second=first(2)
+// console.log(second)
+// const result=second(3)
+// console.log(result)     
+
+// console.log(add(1)(2)(3))
+
+
+
+const homework =new Promise((res,rej) => {
+    console.log("i want to start my homewor");
+
+    setTimeout(()=> {
+        const didhomework= true;
+
+        if(didhomework){
+            res("yes i did it");
+
+            } else if (didhomework) {
+                rej("no i did not do it");
+        }
+        },3000);
+    });
+
+    console.log(homework);

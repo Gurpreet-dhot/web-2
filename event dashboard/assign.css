@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
+h1{
+    text-align: center;
+    font-weight: bolder;
+}
 
 body {
     background: linear-gradient(to right, #9fb8e9, #a8dadc);

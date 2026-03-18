@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="w.css">
+</head>
+<body>
+    <div class="header">🌤 Async Weather Tracker</div>
+
+<div class="container">
+    <div class="weatherform">
+        <h3>Search City</h3>
+        <form id="form">
+            <input type="text" id="city" placeholder="Indore">
+            <button id="search">Search</button>
+        </form>
+
+        <h3>Search History</h3>
+        <div class="historyBtn"></div>
+    </div>
+
+    <div class="info">
+        <h3>Weather Info</h3>
+    </div>
+</div>
+
+<div class="console">
+    <div class="console-title">Console – Event Loop</div>
+    <div class="console-box">
+        1️⃣ Sync Start <br>
+        2️⃣ Sync End <br>
+        [ASYNC] Start fetching <br>
+        3️⃣ Promise.then (Microtask) <br>
+        4️⃣ setTimeout (Macrotask) <br>
+        [ASYNC] Data received
+    </div>
+</div>
+    
+    <script src="w.js"></script>
+</body>
+</html>
